@@ -2,6 +2,33 @@
   --primary: #f2ae30;
 }
 
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 75px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 1.25rem;
+}
+
+.link-menu:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
 .banner-home {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./imagens/bg-banner-home.jpg') no-repeat center center;
   background-size: cover;
