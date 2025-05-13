@@ -2,6 +2,10 @@
   --primary: #f2ae30;
 }
 
+.vh-75 {
+  height: 75vh;
+}
+
 .custom-navbar {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
@@ -32,7 +36,7 @@
 .banner-home {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./imagens/bg-banner-home.jpg') no-repeat center center;
   background-size: cover;
-  height: 75vh;
+  background-attachment: fixed;
 }
 
 .banner-home-content {
@@ -43,4 +47,38 @@
   span {
     color: var(--primary);
   }
+}
+
+.banner-orange {
+  background-color: var(--primary);
+}
+
+.banner-joao {
+  background-color: #fff;
+}
+
+.sobre-conteudo {
+  max-width: 600px;
+}
+
+.sobre-bg {
+  background: url('./imagens/joao.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .img-waves {
+    display: none;
+  }
+
+  .banner-joao {
+    flex-direction: column;
+    height: fit-content !important;
+  }
+
+  .sobre-bg {
+    height: 300px;
+    background-attachment: fixed;
+  }
+  
 }
