@@ -61,9 +61,30 @@
   max-width: 600px;
 }
 
+.sobre-conteudo p {
+  font-size: 1.25rem;
+}
+
 .sobre-bg {
   background: url('./imagens/joao.jpg') no-repeat center center;
   background-size: cover;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.social-links {
+  display: flex;
+
+  gap: 20px;
+}
+
+.social-links a img {
+  width: 30px;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
