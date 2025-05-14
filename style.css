@@ -13,6 +13,7 @@
   left: 50%;
   transform: translateX(-50%);
   border-radius: 75px;
+  z-index: 1000;
 }
 
 .logo {
@@ -63,6 +64,7 @@
 
 .sobre-conteudo p {
   font-size: 1.25rem;
+  text-align: justify;
 }
 
 .sobre-bg {
@@ -147,7 +149,7 @@ footer {
 
   .sobre-conteudo {
     margin: auto;
-    padding: 50px 0 !important;
+    padding: 50px 20px !important;
   }
   
 }
