@@ -41,13 +41,17 @@
 }
 
 .banner-home-content {
-  width: 300px;
+  max-width: 410px;
   font-family: 'Impact', 'Cal Sans', sans-serif;
   color: #fff;
 
   span {
     color: var(--primary);
   }
+}
+
+.banner-home-content p {
+  text-align: end;
 }
 
 .banner-orange {
