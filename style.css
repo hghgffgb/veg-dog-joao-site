@@ -193,7 +193,7 @@ footer {
 
 .login-image {
   flex: 1 1 50%;
-  background: url('./imagens/bg-banner-home.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./imagens/bg-banner-home.jpg') no-repeat center center;
   background-size: cover;
   min-width: 250px;
   min-height: 400px;
@@ -207,6 +207,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.btn-custom {
+  background-color: var(--primary) !important;
+  border: none !important;
 }
 
 @media (max-width: 767px) {
