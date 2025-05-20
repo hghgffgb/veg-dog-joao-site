@@ -44,13 +44,30 @@
 </head>
 <body>
   <header>
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a href="#" class="link-menu link-menu-offcanvas">Cardápio</a>
+          </li>
+          <li class="nav-item ">
+            <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/hot-dog-company-vegan-consolacao/de9af216-28ea-494a-971c-83389b17fa05?srsltid=AfmBOorrlbMp2iuLcX3n0btTaiYPBkMiU53jhr11ynxc0g9-nQJiAGAX" target="_blank" class="link-menu link-menu-offcanvas">Peça Já</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <nav class="container-sm custom-navbar px-4 py-2">
       <div class="container-sm d-flex justify-content-between align-items-center">
-        <a href="#" class="link-menu">Cardápio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon nav-icon"></span>
+        </button>
         <a href="#">
           <img src="imagens/logo.png" alt="Logo Veg*Dog do João" class="logo">
         </a>
-        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/hot-dog-company-vegan-consolacao/de9af216-28ea-494a-971c-83389b17fa05?srsltid=AfmBOorrlbMp2iuLcX3n0btTaiYPBkMiU53jhr11ynxc0g9-nQJiAGAX" target="_blank" class="link-menu">Peça Já</a>
+        <a href="#" class="link-menu">Log in</a>
       </div>
     </nav>
   </header>
