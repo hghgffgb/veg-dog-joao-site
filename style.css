@@ -180,3 +180,48 @@ footer {
   }
   
 }
+
+.login-container {
+  width: 700px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  overflow: hidden;
+  display: flex;
+}
+
+.login-image {
+  flex: 1 1 50%;
+  background: url('./imagens/bg-banner-home.jpg') no-repeat center center;
+  background-size: cover;
+  min-width: 250px;
+  min-height: 400px;
+}
+
+.login-form {
+  flex: 1 1 50%;
+  background: #fff;
+  min-width: 250px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .login-container {
+    flex-direction: column;
+    width: 100%;
+    min-width: unset;
+    border-radius: 1rem;
+  }
+  .login-image {
+    display: none !important;
+  }
+  .login-form {
+    min-width: unset;
+    min-height: 300px;
+    padding: 2rem 1rem;
+  }
+}
