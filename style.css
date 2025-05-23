@@ -1,5 +1,6 @@
 :root {
   --primary: #f2ae30;
+  --secondary: #0f5956;
 }
 
 .vh-75 {
@@ -162,6 +163,11 @@ footer {
 
 .btn-custom {
   background-color: var(--primary) !important;
+  border: none !important;
+}
+
+.btn-custom-secondary {
+  background-color: var(--secondary) !important;
   border: none !important;
 }
 
