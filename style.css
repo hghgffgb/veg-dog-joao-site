@@ -72,6 +72,11 @@
   background-color: var(--primary);
 }
 
+.title-carousel {
+  font-family: 'Impact', 'Cal Sans', sans-serif;
+  color: var(--secondary);
+}
+
 .banner-joao {
   background-color: #fff;
 }
