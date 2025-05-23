@@ -181,6 +181,15 @@ footer {
   background-color: var(--primary);
 }
 
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.5em;
+}
+
 @media (min-width: 768px) {
   .carousel-item {
     margin-right: 0;
